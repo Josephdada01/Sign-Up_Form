@@ -64,21 +64,22 @@ body html {
     margin: 3%;
     
   }
+  .the-right p {
+    color: #4f8a1b;
+
+  }
 label  {
     display: block;
     padding-top: 20px;
     letter-spacing: 2;
     font-weight: bolder;
     font-size: 1rem;
-}
-input {
-    border: 2px solid #596D48;
-    padding-top: 10px;
-    margin-top: 0.5%;
+    color: #4f8a1b;
 }
 .the-right p {
     font-weight: bold;
     font-style: italic;
+    width: 72%;
 }
 .button {
     background-color: #596D48;
@@ -95,3 +96,20 @@ input {
     background-color: #6ac519;
     opacity: 0.9;
  }
+ input, textarea {
+    font: 1em sans-serif;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 7px;
+    margin-top: 1%;
+ }
+ form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid rgb(90, 35, 15);
+    border-radius: 1em;
+  }
+  fieldset {
+    border: none;
+  }
