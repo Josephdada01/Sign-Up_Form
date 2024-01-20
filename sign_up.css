@@ -6,19 +6,14 @@ body html {
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
-    'Open Sans', 'Helvetica Neue', sans-serif 'Times New Roman', Times, serif;
+    'Open Sans', 'Helvetica Neue', sans-serif, 'Times New Roman', Times, serif;
     height: 100%;
     background-repeat: no-repeat;
-
-  }
-  .container {
-    height: 100%;
   }  
   
   .flex-container {
     display: flex;
     min-height: 100vh;
-    margin: 0%;
     background: linear-gradient(to right, #789461, #294B29);
     background-repeat: no-repeat;
   }
@@ -37,8 +32,6 @@ body html {
     left: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    align-items: center;
   }
   
   .odin-logo {
@@ -79,7 +72,7 @@ body html {
 label  {
     display: block;
     padding-top: 20px;
-    letter-spacing: 2;
+    letter-spacing: 0.5px;
     font-weight: bolder;
     font-size: 1rem;
     color: black;
