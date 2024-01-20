@@ -3,6 +3,7 @@ body html {
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
     height: 100%;
+    background-repeat: no-repeat;
 
   }
   .container {
@@ -13,7 +14,8 @@ body html {
     display: flex;
     min-height: 100vh;
     margin: 0%;
-    background-color: whitesmoke;
+    background: linear-gradient(to right, #789461, #294B29);
+    background-repeat: no-repeat;
   }
   
   .the-left {
@@ -62,10 +64,10 @@ body html {
     position: relative;
     justify-content: center;
     margin: 3%;
-    
+    background-repeat: no-repeat;
   }
   .the-right p {
-    color: #4f8a1b;
+    color: #ccc
 
   }
 label  {
@@ -74,7 +76,7 @@ label  {
     letter-spacing: 2;
     font-weight: bolder;
     font-size: 1rem;
-    color: #4f8a1b;
+    color: #ccc
 }
 .the-right p {
     font-weight: bold;
@@ -82,7 +84,7 @@ label  {
     width: 72%;
 }
 .button {
-    background-color: #596D48;
+    background-color: rgb(90, 35, 15);
     margin-top: 2%;
     border-radius: 0.5em;
     width:  150px;
@@ -103,6 +105,11 @@ label  {
     padding: 7px;
     margin-top: 1%;
  }
+ input:focus {
+    border-color: brown;
+    outline: none; 
+}
+
  form {
     margin: 0 auto;
     width: 400px;
