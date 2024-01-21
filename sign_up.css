@@ -72,7 +72,7 @@ body html {
 label  {
     display: block;
     padding-top: 20px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.5mmpx;
     font-weight: bolder;
     font-size: 1rem;
     color: black;
